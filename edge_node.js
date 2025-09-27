@@ -5,7 +5,7 @@ const axios = require('axios');
 const app = express();
 app.use(express.json());
 
-const uri = 'mongodb+srv://manshant4793:manshantsingh@sit314.yb4gsz9.mongodb.net/?retryWrites=true&w=majority&appName=SIT314';
+const uri = 'mongodb+srv://manshant4793:password@sit314.yb4gsz9.mongodb.net/?retryWrites=true&w=majority&appName=SIT314';
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const logSchema = new mongoose.Schema({
